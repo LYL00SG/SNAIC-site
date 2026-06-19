@@ -478,7 +478,14 @@ button { font: inherit; cursor: pointer; }
 .project-folder { width: 34px; height: 34px; color: var(--accent); stroke-width: 1.6; }
 .project-link { color: var(--text-muted); transition: color var(--transition), transform var(--transition); }
 .project-link:hover { color: var(--accent-strong); transform: translate(2px, -2px); }
-.project-title { font-size: 1.2rem; margin-bottom: 0.5rem; }
+.project-title { font-size: 1.2rem; margin-bottom: 0.3rem; }
+.project-context {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--accent-strong);
+  margin-bottom: 0.7rem;
+}
 .project-desc { color: var(--text-muted); margin-bottom: 1.2rem; flex-grow: 1; }
 .project-stack li { font-size: 0.78rem; }
 
