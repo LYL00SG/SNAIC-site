@@ -78,6 +78,10 @@
 
 * { margin: 0; }
 
+/* The `hidden` attribute must win over class-based `display` rules
+   (e.g. .repos-status/.repos-grid), which otherwise override the UA default. */
+[hidden] { display: none !important; }
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 16px);
